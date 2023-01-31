@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/503befbdb7.js" crossorigin="anonymous"></script>
+    <!-- Font  -->
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <!-- Tittle -->
+    <title>Food Delivery</title>
+</head>
+
+<body>
+
+    <!-- Start of Header -->
+    <h3 class="logo-text"> Food Delivery Services</h3>
+    <!-- End of Header -->
+
+    <!-- Start of Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-menu" onclick="window.location.href='/search.html'">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="/search.html">Search</a>
+        </div>
+        <div class="sidebar-menu" onclick="window.location.href='/index.html'">
+            <i class="fa-solid fa-house"></i>
+            <a href="index.html">Home</a>
+        </div>
+        <div class="sidebar-menu active-sidebar-menu">
+            <i class="fa-regular fa-heart"></i>
+            <a href="#">Favs</a>
+        </div>
+        <div class="sidebar-menu" onclick="window.location.href='/profile.html'">
+            <i class="fa-regular fa-user"></i>
+            <a href="profile.html">Profile</a>
+        </div>
+    </div>
+
+    <!-- End of Sidebar -->
+
+    <!-- Start favs -->
+
+    <div class="dashboard favs">
+        <div class="dashboard-content">
+            <!-- card1 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image1.jpg">
+                <div class="card-detail">
+                    <h4>Amazing Pizza <span>$30 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="favs-icone"><i class="fa-solid fa-heart"></i></p>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image2.jpg">
+                <div class="card-detail">
+                    <h4>Tasty Burger <span>$10 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="favs-icone"><i class="fa-solid fa-heart"></i></p>
+                </div>
+            </div>
+
+            <!-- card5 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image6.webp">
+                <div class="card-detail">
+                    <h4>Burger and juice <span>$35 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="favs-icone"><i class="fa-solid fa-heart"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End favs -->
+
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/503befbdb7.js" crossorigin="anonymous"></script>
+    <!-- Font  -->
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <!-- Tittle -->
+    <title>Food Delivery</title>
+</head>
+
+<body>
+
+    <!-- Start of Header -->
+
+    <input type="checkbox" id="cart">
+    <label for="cart" class="label-cart"><i class="fa-solid fa-cart-plus"></i></label>
+
+    <h3 class="logo-text"> Food Delivery Services</h3>
+
+    <!-- End of Header -->
+
+    <!-- Start of Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-menu" onclick="window.location.href='/search.html'">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="/search.html">Search</a>
+        </div>
+        <div class="sidebar-menu active-sidebar-menu">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+        </div>
+        <div class="sidebar-menu" onclick="window.location.href='/favs.html'">
+            <i class="fa-regular fa-heart"></i>
+            <a href="favs.html">Favs</a>
+        </div>
+        <div class="sidebar-menu" onclick="window.location.href='/profile.html'">
+            <i class="fa-regular fa-user"></i>
+            <a href="profile.html">Profile</a>
+        </div>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Start of Main dashborad -->
+
+    <div class="dashboard">
+        <div class="dashboard-banner">
+            <img src="/images/image5.jpg">
+            <div class="banner-promo">
+                <h1><span>45% OFF</span><br>
+                    Tasty Food <br> On Your Hand </h1>
+            </div>
+        </div>
+        <h3 class="dashboard-title"> Recommend Food For You</h3>
+
+        <div class="dashboard-menu">
+            <a href="#">Favorites</a>
+            <a href="#">Best seller</a>
+            <a href="#">Near Me</a>
+            <a href="#">Promotion</a>
+            <a href="#">Top Rated</a>
+            <a href="#">All</a>
+        </div>
+
+
+        <div class="dashboard-content">
+            <!-- card1 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image1.jpg">
+                <div class="card-detail">
+                    <h4>Amazing Pizza <span>$30 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="card-time"><i class="fa-regular fa-clock"></i> 15 - 30 min.</p>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image2.jpg">
+                <div class="card-detail">
+                    <h4>Tasty Burger <span>$10 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="card-time"><i class="fa-regular fa-clock"></i> 10 - 15 min.</p>
+                </div>
+            </div>
+            <!-- card3 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image3.webp">
+                <div class="card-detail">
+                    <h4>Fantastic Meal <span>$15 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="card-time"><i class="fa-regular fa-clock"></i> 10 - 15 min.</p>
+                </div>
+            </div>
+            <!-- card4 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image4.jpg">
+                <div class="card-detail">
+                    <h4>Healthy Breakfast <span>$5 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="card-time"><i class="fa-regular fa-clock"></i> 10 - 15 min.</p>
+                </div>
+            </div>
+            <!-- card5 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image6.webp">
+                <div class="card-detail">
+                    <h4>Burger and juice <span>$35 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="card-time"><i class="fa-regular fa-clock"></i> 15 - 35 min.</p>
+                </div>
+            </div>
+            <!-- card6 -->
+            <div class="dashboard-card">
+                <img class="card-image" src="/images/image5.jpg">
+                <div class="card-detail">
+                    <h4>Black Burger <span>$20 </span></h4>
+                    <p>Description of meal</p>
+                    <p class="card-time"><i class="fa-regular fa-clock"></i> 15 - 35 min.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End of Main dashborad -->
+
+    <!-- Start of Order dashborad -->
+
+    <div class="dashboard-order">
+        <h3>Order Mneu</h3>
+        <div class="order-adress">
+            <P>Adress Delivery</P>
+            <h4>165 K, Gaza</h4>
+        </div>
+        <div class="order-time">
+            <i class="fa-regular fa-clock"></i> 45 min <i class="fa-solid fa-map-location-dot"> </i> 2 km
+        </div>
+
+        <div class="order-wrapper">
+            <!-- order1 -->
+            <div class="order-card">
+                <img class="order-image" src="/images/image6.webp">
+                <div class="order-detail">
+                    <p>Meal Name.</p>
+                    <i class="fa-solid fa-xmark"></i> <input type="text" value="1">
+                </div>
+                <h4 class="order-price">$35</h4>
+            </div>
+            <!-- order2 -->
+            <div class="order-card">
+                <img class="order-image" src="/images/image4.jpg">
+                <div class="order-detail">
+                    <p>Meal Name.</p>
+                    <i class="fa-solid fa-xmark"></i> <input type="text" value="1">
+                </div>
+                <h4 class="order-price">$5</h4>
+            </div>
+            <!-- order3 -->
+            <div class="order-card">
+                <img class="order-image" src="/images/image3.webp">
+                <div class="order-detail">
+                    <p>Meal Name.</p>
+                    <i class="fa-solid fa-xmark"></i> <input type="text" value="1">
+                </div>
+                <h4 class="order-price">$15</h4>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="order-total">
+            <P>Subtotal <span>$150</span></P>
+            <p>Tax (10%) <span>$15</span></p>
+            <p> Delivery Fees <span>45</span></p>
+
+            <div class="order-promo">
+                <input class="input-promo" type="text" placeholder="Apply Voucher">
+                <button class="button-promo">Find Promo</button>
+            </div>
+            <hr class="line">
+            <p>Total <span>$168.3</span></p>
+        </div>
+        <button class="checkout">Checkout</button>
+    </div>
+    </div>
+
+    <!-- End of Order dashborad -->
+
+</body>
+
+</html>

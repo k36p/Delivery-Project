@@ -1,0 +1,18 @@
+@media screen and (max-width: 680px) {
+  .dashboard {
+    padding-right: 0;
+  }
+  .dashboard-order {
+    width: 100%;
+    left: 0;
+  }
+  .logo-text {
+    padding: 15px 15px 15px 60px;
+  }
+}
+
+@media screen and (min-width: 681px) {
+  .logo-text {
+    padding: 15px 350px 15px 60px;
+  }
+}
